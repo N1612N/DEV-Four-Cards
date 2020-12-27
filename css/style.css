@@ -1,0 +1,253 @@
+/*--------------------------Desktop------------------------------*/
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    
+}
+
+h1{
+    font-weight: 200;
+    color: black;
+
+}
+
+h3{
+    color:hsl(234, 12%, 34%);
+    text-align: left;
+    font-weight: 600;
+    
+}
+
+p{
+
+    color: hsl(229, 6%, 66%);
+   
+}
+
+/*--------------------------Top Text Box------------------------------*/
+.text{
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    line-height: 1.6em;
+}
+
+.text h1{
+    font-family: 'Poppins','San-serif';
+    font-size: 28px;
+    
+}
+
+.text p{
+    font-size: 0.9em;
+    padding-top:10px ;
+    width: 90%;
+}
+
+.bold{
+
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+
+}
+
+
+/*--------------------------Card Container------------------------------*/
+
+.container{
+    margin: auto;
+    width: 95%;  
+    height: 500px;
+    position: relative;
+    
+     
+}
+
+
+.card{
+   
+    width: 20%;
+    height: auto;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 2em;
+    margin: 20px;
+    padding: 20px;
+    border-top: 4px solid ;
+    border-radius: 5px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.20),0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+img{
+    width: 40px;
+    padding: 10px;
+    margin: 0 0 0 78%;
+    
+}
+
+.team{
+
+    border-top-color: hsl(0, 78%, 62%) ;
+
+    position: relative;
+    top: auto;
+    bottom: 225px;
+    right: auto;
+    left: 35%;
+    
+}
+
+.super{
+    border-top-color: hsl(180, 62%, 55%) ;
+
+    position: relative;
+
+    top: 150px;
+    bottom: auto;
+    right: auto;
+    left: 9%;
+
+
+
+}
+
+.calc{
+    
+    border-top-color: hsl(212, 86%, 64%);
+
+    position: relative;
+    
+    top: auto;
+    bottom: 525px;
+    right: auto;
+    left: 61%;
+      
+}
+
+.karma{
+    border-top-color: hsl(34, 97%, 64%);
+
+    position: relative;
+
+    top: auto;
+    bottom: 225px;
+    right: auto;
+    left: 35%;
+      
+}    
+   
+    
+/*-------------------------Mobile Device------------------------------*/
+
+@media(max-width:300px)
+{
+
+    body{
+        margin: auto;
+        width: 95%;
+        height: auto;
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+
+    #main{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        height: auto;
+    }
+
+    header{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        height: auto;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    p{
+        font-weight: 600;
+    }
+
+
+/*--------------------------Top Text Box------------------------------*/
+    .text{
+        width: 95%;
+        margin: auto;
+        height: auto;
+        padding: 0;
+        padding-top: 10px;
+        text-align: center;
+        line-height: 1.6em;
+        font-weight: 400;
+
+        
+    }
+
+    .text h1{
+        font-size: 1.1em;
+        text-align: center;
+        line-height: 1.2em;    
+    }
+
+    .text p{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        padding: 0;
+        padding-bottom: 30px;
+        }
+
+/*--------------------------Card Container------------------------------*/        
+    .container{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        height: auto;
+       
+    }
+
+    .card{
+        width:80%;
+        margin: 20px;
+        padding: 20px; 
+        text-align: left;
+        position: relative;
+        left: 0;
+        right:0;   
+        top: 0;
+        bottom: 0;
+        height: auto;
+    }
+
+    footer p{
+        width: 90%;
+        text-align: center;
+        font-size: 1px;
+        margin: auto;
+        font-weight: 200;
+        font-style: none;
+        text-decoration: none;
+    }
+
+
+}
